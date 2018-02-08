@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Geolocalizacion</title>
+	<link rel="stylesheet" type="text/css" href="assets/main.css">
+	
+</head>
+<body>
+	<div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3">
+	<h1 id="titulo">My Google Maps Demo</h1>
+	</div>
+
+	
+	<div class="col-lg-3 col-md-3">
+		<input type="text" name="Origen" id="punto-partida" placeholder="Indica tu punto de partida">
+	</div>
+	<div class="col-lg-3 col-md-3">
+	<input type="text" name="Destino" id="punto-destino" placeholder="Ingresa tu destino">
+	</div>
+	<div class="col-lg-3 col-md-3">
+	<button id="trazar-ruta">Trazar ruta</button>
+	</div>
+	<div class="col-lg-3 col-md-3">
+	<button id="encuentrame">Encuentrame</button>
+	</div>
+
+
+	
+
+
+
+	<div id="map"></div>
+	  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnCCsLhGtG3pP0tkLFKIyLgqR7De20Mtw&callback=initMap&libraries=places"></script>
+
+	<script type="text/javascript" src="assets/app.js"></script>
+    </body>
+</html>

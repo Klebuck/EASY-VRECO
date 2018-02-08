@@ -1,0 +1,41 @@
+body{
+	background-color: #34BF9A;
+}
+
+#titulo{
+	margin-left: 17em;
+	color:white;
+
+}
+div#map{
+	width: 100%;
+	height: 90vh;
+
+	
+}
+
+#punto-partida{
+	float: left;
+	margin-left: 35em;
+}
+
+#punto-destino{
+	margin-left: 5em;
+}
+
+#trazar-ruta{
+	float: left;
+	margin-left: 391em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	color:white;
+	background-color: #198C6F
+}
+
+#encuentrame{
+	margin-left: 10em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	color:white;
+	background-color: #198C6F
+}
